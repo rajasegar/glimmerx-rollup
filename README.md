@@ -1,7 +1,6 @@
 # glimmer-rollup
 
-This README outlines the details of collaborating on this GlimmerX application.
-A short introduction of this app could easily go here.
+GlimmerX application built using Rollup.js
 
 ## Prerequisites
 
@@ -29,5 +28,5 @@ You will need the following things properly installed on your computer.
 ## Further Reading / Useful Links
 
 * [glimmerx](http://github.com/glimmerjs/glimmer-experimental/)
-* [webpack](https://webpack.js.org/)
+* [rollup](https://rollupjs.org/)
 * [babel](https://babeljs.io/docs/en/configuration)
