@@ -888,6 +888,14 @@
   resolved "https://registry.yarnpkg.com/@ember-data/rfc395-data/-/rfc395-data-0.0.4.tgz#ecb86efdf5d7733a76ff14ea651a1b0ed1f8a843"
   integrity sha512-tGRdvgC9/QMQSuSuJV45xoyhI0Pzjm7A9o/MVVA3HakXIImJbbzx/k/6dO9CUEQXIyS2y0fW6C1XaYOG7rY0FQ==
 
+"@glimmer/babel-plugin-glimmer-env@^2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/babel-plugin-glimmer-env/-/babel-plugin-glimmer-env-2.0.0-beta.1.tgz#3ef1052441010394dcab7394a43110fc4cc29a80"
+  integrity sha512-R7hsEHlxcgoxs8ZY81bh3u7aIL3bFxjXAV31Kx9FaTDhpTnT47OTBEaVAjl4efehAbGCFPeBKY14RdNF18+g0Q==
+  dependencies:
+    "@babel/core" "^7.5.5"
+    babel-plugin-debug-macros "^0.3.3"
+
 "@glimmer/babel-plugin-strict-template-precompile@2.0.0-beta.7":
   version "2.0.0-beta.7"
   resolved "https://registry.yarnpkg.com/@glimmer/babel-plugin-strict-template-precompile/-/babel-plugin-strict-template-precompile-2.0.0-beta.7.tgz#d2d21e25b0dc7946f7aec610170ead6921e9563d"
