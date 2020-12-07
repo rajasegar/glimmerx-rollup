@@ -6,6 +6,7 @@ import css from 'rollup-plugin-css-only';
 import babel from '@rollup/plugin-babel';
 import serve from 'rollup-plugin-serve';
 import { terser } from 'rollup-plugin-terser';
+import liveReload from 'rollup-plugin-livereload';
 
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const plugins = [
@@ -23,6 +24,7 @@ const plugins = [
       contentBase: 'public',
     }),
   IS_PRODUCTION && terser(),
+  !IS_PRODUCTION && liveReload(),
 ];
 
 export default {

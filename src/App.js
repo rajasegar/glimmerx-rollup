@@ -12,8 +12,7 @@ export default class App extends Component {
 
       <h1>Hello World, glimmerx!</h1>
       <h3>
-        you can get started by editing <code>src/App.js</code>,
-        and run tests by visiting <a href="./tests">/tests</a>
+        you can get started by editing <code>src/App.js</code>.
       </h3>
     </div>
   `;

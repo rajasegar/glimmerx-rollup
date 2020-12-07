@@ -6,6 +6,6 @@ module.exports = function (api) {
       ['@babel/plugin-proposal-decorators', { legacy: true }],
       '@babel/plugin-proposal-class-properties',
     ],
-    presets: ['@babel/preset-env', '@babel/preset-typescript'],
+    presets: ['@babel/preset-env'],
   };
 };
